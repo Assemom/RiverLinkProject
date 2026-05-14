@@ -1,0 +1,280 @@
+[
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/admin/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ArabRiver.Service.DTOs.Auth.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.AuthController",
+    "Method": "GetCurrentAdmin",
+    "RelativePath": "api/admin/auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.Admin.AdminCatalogController",
+    "Method": "GetAllCatalogs",
+    "RelativePath": "api/admin/catalogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.Admin.AdminCatalogController",
+    "Method": "CreateCatalog",
+    "RelativePath": "api/admin/catalogs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ArabRiver.Service.DTOs.Catalog.CreateCatalogDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.Admin.AdminCatalogController",
+    "Method": "UpdateCatalog",
+    "RelativePath": "api/admin/catalogs/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ArabRiver.Service.DTOs.Catalog.UpdateCatalogDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.Admin.AdminCatalogController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/admin/catalogs/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ArabRiver.Service.DTOs.CatalogStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.Admin.AdminContactController",
+    "Method": "GetAllMessages",
+    "RelativePath": "api/admin/contact-messages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.Admin.AdminContactController",
+    "Method": "MarkAsRead",
+    "RelativePath": "api/admin/contact-messages/{id}/read",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.Admin.AdminLeadController",
+    "Method": "GetAllLeads",
+    "RelativePath": "api/admin/leads",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.Admin.AdminLeadController",
+    "Method": "ExportLeads",
+    "RelativePath": "api/admin/leads/export",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.Admin.AdminOutsideEgyptVisitorController",
+    "Method": "GetAllVisitors",
+    "RelativePath": "api/admin/outside-egypt-visitors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.CatalogController",
+    "Method": "GetActiveCatalogs",
+    "RelativePath": "api/catalogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.CatalogController",
+    "Method": "GetCatalogById",
+    "RelativePath": "api/catalogs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.ContactController",
+    "Method": "CreateMessage",
+    "RelativePath": "api/contact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ArabRiver.Service.DTOs.Contact.CreateContactMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.LeadController",
+    "Method": "GetLeadLocation",
+    "RelativePath": "api/lead/location",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.LeadController",
+    "Method": "CreateOutsideEgyptLead",
+    "RelativePath": "api/lead/outside-egypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ArabRiver.Service.DTOs.Lead.CreateOutsideEgyptLeadDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArabRiver.Api.Controllers.LeadController",
+    "Method": "CreateLead",
+    "RelativePath": "api/leads",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ArabRiver.Service.DTOs.Lead.CreateLeadDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

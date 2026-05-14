@@ -1,0 +1,35 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DbConn": ""
+  },
+  "JwtSettings": {
+    "Key": "",
+    "Issuer": "ArabRiverAPI",
+    "Audience": "ArabRiverClient",
+    "DurationInMinutes": 720
+  },
+  "EmailSettings": {
+    "SenderName": "",
+    "SenderEmail": "",
+    "SmtpServer": "",
+    "Port": 587,
+    "Username": "",
+    "Password": ""
+  },
+  "WeeklyReportSettings": {
+    "AdminEmails": [
+      ""
+    ],
+    "TriggerToken": "",
+    "TimeZoneId": "Egypt Standard Time",
+    "RunDayOfWeek": "Sunday",
+    "RunTime": "09:00:00"
+  }
+}

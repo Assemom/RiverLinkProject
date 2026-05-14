@@ -1,0 +1,6 @@
+@ArabRiver.Api_HostAddress = http://localhost:5233
+
+GET {{ArabRiver.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

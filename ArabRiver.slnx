@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Copilot_instructions/">
+    <File Path="AI_CONTEXT.md" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="ArabRiver.postman_collection.json" />
+  </Folder>
+  <Project Path="ArabRiver.Api/ArabRiver.Api.csproj" />
+  <Project Path="ArabRiver.Repository/ArabRiver.Repository.csproj" />
+  <Project Path="ArabRiver.Service/ArabRiver.Service.csproj" />
+</Solution>

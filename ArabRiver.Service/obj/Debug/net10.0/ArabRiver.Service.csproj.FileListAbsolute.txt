@@ -1,0 +1,15 @@
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\obj\Debug\net10.0\ArabRiver.Service.csproj.AssemblyReference.cache
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\obj\Debug\net10.0\ArabRiver.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\obj\Debug\net10.0\ArabRiver.Service.AssemblyInfoInputs.cache
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\obj\Debug\net10.0\ArabRiver.Service.AssemblyInfo.cs
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\obj\Debug\net10.0\ArabRiver.Service.csproj.CoreCompileInputs.cache
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\bin\Debug\net10.0\ArabRiver.Service.deps.json
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\bin\Debug\net10.0\ArabRiver.Service.dll
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\bin\Debug\net10.0\ArabRiver.Service.pdb
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\bin\Debug\net10.0\ArabRiver.Repository.dll
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\bin\Debug\net10.0\ArabRiver.Repository.pdb
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\obj\Debug\net10.0\ArabRive.FC18704B.Up2Date
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\obj\Debug\net10.0\ArabRiver.Service.dll
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\obj\Debug\net10.0\refint\ArabRiver.Service.dll
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\obj\Debug\net10.0\ArabRiver.Service.pdb
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Service\obj\Debug\net10.0\ref\ArabRiver.Service.dll

@@ -1,0 +1,23 @@
+name: Weekly Reports Trigger
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger weekly report
+        env:
+          REPORT_URL: ${{ secrets.REPORT_URL }}
+          REPORT_TOKEN: ${{ secrets.REPORT_TOKEN }}
+        run: |
+          if [ -z "$REPORT_URL" ] || [ -z "$REPORT_TOKEN" ]; then
+            echo "REPORT_URL or REPORT_TOKEN is not set."
+            exit 1
+          fi
+          curl --fail --show-error --silent \
+            -X POST "$REPORT_URL" \
+            -H "X-Report-Token: $REPORT_TOKEN"

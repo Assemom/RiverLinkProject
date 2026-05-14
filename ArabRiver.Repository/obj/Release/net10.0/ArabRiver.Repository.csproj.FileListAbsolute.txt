@@ -1,0 +1,14 @@
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\bin\Release\net10.0\ArabRiver.Repository.deps.json
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\bin\Release\net10.0\ArabRiver.Repository.runtimeconfig.json
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\bin\Release\net10.0\ArabRiver.Repository.dll
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\bin\Release\net10.0\ArabRiver.Repository.pdb
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\obj\Release\net10.0\ArabRiver.Repository.csproj.AssemblyReference.cache
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\obj\Release\net10.0\ArabRiver.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\obj\Release\net10.0\ArabRiver.Repository.AssemblyInfoInputs.cache
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\obj\Release\net10.0\ArabRiver.Repository.AssemblyInfo.cs
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\obj\Release\net10.0\ArabRiver.Repository.csproj.CoreCompileInputs.cache
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\obj\Release\net10.0\ArabRiver.Repository.dll
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\obj\Release\net10.0\refint\ArabRiver.Repository.dll
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\obj\Release\net10.0\ArabRiver.Repository.pdb
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\obj\Release\net10.0\ArabRiver.Repository.genruntimeconfig.cache
+E:\ITI-intake46\Arab River Link\ArabRiver\ArabRiver.Repository\obj\Release\net10.0\ref\ArabRiver.Repository.dll
